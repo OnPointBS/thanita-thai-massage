@@ -1323,8 +1323,19 @@ img {
     font-size: 1.3rem;
 }
 
-.mobile-nav-item:hover,
+.mobile-nav-item:hover {
+    color: var(--color-primary);
+}
+
 .mobile-nav-item.active {
+    color: var(--color-primary);
+    background: var(--color-cream);
+    border-radius: var(--radius-md);
+    padding: 8px 16px;
+    margin: -4px 0;
+}
+
+.mobile-nav-item.active i {
     color: var(--color-primary);
 }
 

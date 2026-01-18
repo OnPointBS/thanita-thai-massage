@@ -6,11 +6,48 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Initialize all components
     initNavbar();
+    initMobileNav();
     initServiceTabs();
     initScrollAnimations();
     initFormHandling();
     initSmoothScroll();
 });
+
+/**
+ * Mobile Bottom Navigation
+ * Handles active state for mobile nav items
+ */
+function initMobileNav() {
+    const mobileNavItems = document.querySelectorAll('.mobile-nav-item');
+    if (mobileNavItems.length === 0) return;
+    
+    // Get current page
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    
+    // Set active state based on current page
+    mobileNavItems.forEach(item => {
+        const href = item.getAttribute('href');
+        
+        // Remove all active states first
+        item.classList.remove('active');
+        
+        // Check if this nav item matches current page
+        if (href === currentPage || 
+            (currentPage === '' && href === 'index.html') ||
+            (currentPage === 'index.html' && href === 'index.html') ||
+            (href.includes(currentPage) && currentPage !== '')) {
+            item.classList.add('active');
+        }
+        
+        // Add click handler for visual feedback
+        item.addEventListener('click', function(e) {
+            // Don't prevent default - let the navigation happen
+            // But add visual feedback
+            mobileNavItems.forEach(nav => nav.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+}
 
 /**
  * Navbar Scroll Effect
