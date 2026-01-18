@@ -4,31 +4,35 @@
 
 /* CSS Variables */
 :root {
-    /* Primary Colors - Warm Gold & Deep Teal */
-    --color-primary: #1a6b6b;
-    --color-primary-light: #2a8a8a;
-    --color-primary-dark: #0d4a4a;
-    --color-accent: #c9a962;
-    --color-accent-light: #d4b978;
-    --color-accent-dark: #a88b4a;
+    /* Primary Colors - Medium Green & Peach/Pink */
+    --color-primary: #5a9a7a;
+    --color-primary-light: #7ab896;
+    --color-primary-dark: #3d7a5a;
+    --color-accent: #f5b5a5;
+    --color-accent-light: #ffd4c8;
+    --color-accent-dark: #e89888;
+    
+    /* Secondary - Soft Pink */
+    --color-pink: #f8c8c8;
+    --color-peach: #ffdab5;
     
     /* Neutral Colors */
     --color-cream: #faf8f5;
     --color-cream-dark: #f0ebe3;
-    --color-charcoal: #2c2c2c;
-    --color-charcoal-light: #4a4a4a;
+    --color-charcoal: #3d5a4a;
+    --color-charcoal-light: #5a7a6a;
     --color-white: #ffffff;
-    --color-black: #0a0a0a;
+    --color-black: #2a3a2a;
     
     /* Text Colors */
-    --text-primary: #2c2c2c;
-    --text-secondary: #6b6b6b;
-    --text-light: #8a8a8a;
+    --text-primary: #3d5a4a;
+    --text-secondary: #5a7a6a;
+    --text-light: #8a9a8a;
     --text-white: #ffffff;
     
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, rgba(26, 107, 107, 0.85) 0%, rgba(13, 74, 74, 0.95) 100%);
-    --gradient-overlay: linear-gradient(180deg, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%);
+    --gradient-hero: linear-gradient(135deg, rgba(90, 154, 122, 0.9) 0%, rgba(61, 122, 90, 0.95) 100%);
+    --gradient-overlay: linear-gradient(180deg, rgba(61, 90, 74, 0.2) 0%, rgba(61, 90, 74, 0.6) 100%);
     --gradient-gold: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-light) 50%, var(--color-accent) 100%);
     
     /* Typography */
