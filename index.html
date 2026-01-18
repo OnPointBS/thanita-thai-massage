@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thanita Thai Massage - Your sanctuary for authentic Thai wellness in Texas. Experience traditional Thai massage, aromatherapy, and deep tissue treatments.">
+    <meta name="keywords" content="Thai massage, wellness spa, relaxation, aromatherapy, deep tissue massage, Texas spa">
+    <title>Thanita Thai Massage | Authentic Thai Wellness & Spa in Texas</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-icon">❀</span>
+                <span class="brand-text">Thanita Thai Massage</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item nav-cta">
+                        <a class="nav-link btn-reserve" href="contact.html#book">Book Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-tagline">— Authentic Thai Wellness —</span>
+            <h1 class="hero-title">Thanita Thai Massage</h1>
+            <p class="hero-subtitle">Where ancient healing meets modern tranquility</p>
+            <p class="hero-description">Unwind, restore, and rediscover balance through the art of traditional Thai massage.</p>
+            <div class="hero-buttons">
+                <a href="services.html" class="btn btn-primary-custom">Explore Services</a>
+                <a href="contact.html#book" class="btn btn-secondary-custom">Book Appointment</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll to discover</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="intro-section" id="intro">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="intro-image-wrapper">
+                        <div class="intro-image">
+                            <img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=600&h=800&fit=crop" alt="Relaxing spa environment">
+                        </div>
+                        <div class="intro-image-accent"></div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="intro-content">
+                        <span class="section-label">Our Philosophy</span>
+                        <h2 class="section-title">A Sanctuary for Mind, Body & Spirit</h2>
+                        <p class="intro-text">At Thanita Thai Massage, we believe wellness is a journey, not a destination. Our skilled therapists blend centuries-old Thai healing techniques with modern comfort to create an experience that goes beyond massage.</p>
+                        <p class="intro-text">Each session is thoughtfully crafted around your needs—whether you seek relief from tension, restoration of energy, or simply a moment of peace in a busy world.</p>
+                        <a href="about.html" class="link-arrow">Learn Our Story <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview Section -->
+    <section class="services-section" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">Our Treatments</span>
+                <h2 class="section-title">Choose Your Path to Wellness</h2>
+                <p class="section-subtitle">Each treatment is designed to guide you toward a specific outcome—from deep relaxation to revitalized energy.</p>
+            </div>
+            
+            <!-- Service Categories Tabs -->
+            <div class="service-tabs">
+                <button class="service-tab active" data-category="all">All</button>
+                <button class="service-tab" data-category="massage">Massage</button>
+                <button class="service-tab" data-category="therapy">Therapy</button>
+                <button class="service-tab" data-category="wellness">Wellness</button>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card" data-category="massage">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=400&h=300&fit=crop" alt="Traditional Thai Massage">
+                        <span class="service-badge">Most Popular</span>
+                    </div>
+                    <div class="service-card-content">
+                        <span class="service-benefit">Best for Tension Relief</span>
+                        <h3 class="service-name">Traditional Thai Massage</h3>
+                        <p class="service-description">Ancient healing art using rhythmic pressure and gentle stretching to restore balance and flexibility.</p>
+                        <div class="service-meta">
+                            <span class="service-duration"><i class="bi bi-clock"></i> 60-90 min</span>
+                            <span class="service-price">From $80</span>
+                        </div>
+                        <div class="service-actions">
+                            <a href="services.html#thai-massage" class="btn-details">Details</a>
+                            <a href="contact.html#book" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card" data-category="massage">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=400&h=300&fit=crop" alt="Deep Tissue Massage">
+                    </div>
+                    <div class="service-card-content">
+                        <span class="service-benefit">Best for Muscle Recovery</span>
+                        <h3 class="service-name">Deep Tissue Massage</h3>
+                        <p class="service-description">Targeted pressure techniques to release chronic muscle tension and promote deep healing.</p>
+                        <div class="service-meta">
+                            <span class="service-duration"><i class="bi bi-clock"></i> 60-90 min</span>
+                            <span class="service-price">From $90</span>
+                        </div>
+                        <div class="service-actions">
+                            <a href="services.html#deep-tissue" class="btn-details">Details</a>
+                            <a href="contact.html#book" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card" data-category="therapy">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=400&h=300&fit=crop" alt="Aromatherapy Massage">
+                    </div>
+                    <div class="service-card-content">
+                        <span class="service-benefit">Best for Relaxation</span>
+                        <h3 class="service-name">Aromatherapy Massage</h3>
+                        <p class="service-description">Soothing massage combined with essential oils to calm the mind and nourish the body.</p>
+                        <div class="service-meta">
+                            <span class="service-duration"><i class="bi bi-clock"></i> 60-90 min</span>
+                            <span class="service-price">From $85</span>
+                        </div>
+                        <div class="service-actions">
+                            <a href="services.html#aromatherapy" class="btn-details">Details</a>
+                            <a href="contact.html#book" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card" data-category="therapy">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400&h=300&fit=crop" alt="Hot Stone Therapy">
+                    </div>
+                    <div class="service-card-content">
+                        <span class="service-benefit">Best for Deep Warmth</span>
+                        <h3 class="service-name">Hot Stone Therapy</h3>
+                        <p class="service-description">Heated basalt stones combined with massage to melt away tension and improve circulation.</p>
+                        <div class="service-meta">
+                            <span class="service-duration"><i class="bi bi-clock"></i> 75-90 min</span>
+                            <span class="service-price">From $95</span>
+                        </div>
+                        <div class="service-actions">
+                            <a href="services.html#hot-stone" class="btn-details">Details</a>
+                            <a href="contact.html#book" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="service-card" data-category="wellness">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop" alt="Thai Herbal Compress">
+                    </div>
+                    <div class="service-card-content">
+                        <span class="service-benefit">Best for Whole-Body Balance</span>
+                        <h3 class="service-name">Thai Herbal Compress</h3>
+                        <p class="service-description">Traditional herbal bundles applied warm to release toxins and rejuvenate tired muscles.</p>
+                        <div class="service-meta">
+                            <span class="service-duration"><i class="bi bi-clock"></i> 90 min</span>
+                            <span class="service-price">From $110</span>
+                        </div>
+                        <div class="service-actions">
+                            <a href="services.html#herbal-compress" class="btn-details">Details</a>
+                            <a href="contact.html#book" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="service-card" data-category="wellness">
+                    <div class="service-card-image">
+                        <img src="https://images.unsplash.com/photo-1552693673-1bf958298935?w=400&h=300&fit=crop" alt="Couples Massage">
+                    </div>
+                    <div class="service-card-content">
+                        <span class="service-benefit">Perfect for Sharing</span>
+                        <h3 class="service-name">Couples Massage</h3>
+                        <p class="service-description">Share a tranquil experience with your partner in our serene couple's suite.</p>
+                        <div class="service-meta">
+                            <span class="service-duration"><i class="bi bi-clock"></i> 60-90 min</span>
+                            <span class="service-price">From $160</span>
+                        </div>
+                        <div class="service-actions">
+                            <a href="services.html#couples" class="btn-details">Details</a>
+                            <a href="contact.html#book" class="btn-book">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="services.html" class="btn btn-primary-custom">View All Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Section -->
+    <section class="offers-section" id="offers">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="offer-card offer-package">
+                        <div class="offer-icon">
+                            <i class="bi bi-gift"></i>
+                        </div>
+                        <span class="offer-label">Gift Cards Available</span>
+                        <h3 class="offer-title">Share the Gift of Wellness</h3>
+                        <p class="offer-description">Give someone special the experience of relaxation. Beautifully designed digital gift cards delivered instantly.</p>
+                        <a href="contact.html" class="btn btn-offer">Purchase Gift Card</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="offer-card offer-membership">
+                        <div class="offer-icon">
+                            <i class="bi bi-star"></i>
+                        </div>
+                        <span class="offer-label">Wellness Membership</span>
+                        <h3 class="offer-title">Monthly Self-Care Ritual</h3>
+                        <p class="offer-description">Join our wellness family. Members enjoy exclusive discounts, priority booking, and special seasonal treatments.</p>
+                        <a href="contact.html" class="btn btn-offer">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience-section" id="experience">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="experience-content">
+                        <span class="section-label">The Experience</span>
+                        <h2 class="section-title">Where Luxury Meets Healing</h2>
+                        <p>Every detail of your visit is designed for your comfort—from the moment you step through our doors to the lingering calm that follows you home.</p>
+                        
+                        <div class="experience-features">
+                            <div class="feature-item">
+                                <div class="feature-icon"><i class="bi bi-flower1"></i></div>
+                                <div class="feature-text">
+                                    <h4>Serene Atmosphere</h4>
+                                    <p>Soft lighting, calming aromatics, and peaceful music create your sanctuary.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon"><i class="bi bi-hand-index-thumb"></i></div>
+                                <div class="feature-text">
+                                    <h4>Expert Therapists</h4>
+                                    <p>Our certified Thai massage specialists have years of training and experience.</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <div class="feature-icon"><i class="bi bi-heart"></i></div>
+                                <div class="feature-text">
+                                    <h4>Personalized Care</h4>
+                                    <p>Every session is tailored to your specific needs and preferences.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="experience-gallery">
+                        <div class="gallery-item gallery-item-1">
+                            <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=400&h=500&fit=crop" alt="Spa interior">
+                        </div>
+                        <div class="gallery-item gallery-item-2">
+                            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=300&h=350&fit=crop" alt="Massage oils">
+                        </div>
+                        <div class="gallery-item gallery-item-3">
+                            <img src="https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?w=350&h=250&fit=crop" alt="Hot stones">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="testimonials">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-label">Client Stories</span>
+                <h2 class="section-title">What Our Guests Say</h2>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">The moment I walked in, I felt my stress melt away. The traditional Thai massage was incredible—I left feeling like a new person. This is now my monthly ritual.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JM</div>
+                        <div class="author-info">
+                            <strong>Jennifer M.</strong>
+                            <span>Regular Client</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">After years of back pain, I finally found relief here. The therapists truly understand the body and know exactly where to apply pressure. Highly recommend!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div class="author-info">
+                            <strong>Robert K.</strong>
+                            <span>First-Time Visitor</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">The couples massage was the perfect anniversary gift. The atmosphere is so peaceful and romantic. We'll definitely be back for more relaxation together.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <strong>Sarah & Mike</strong>
+                            <span>Anniversary Celebration</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Preview Section -->
+    <section class="contact-preview" id="contact-preview">
+        <div class="container">
+            <div class="contact-card">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="contact-info">
+                            <span class="section-label">Visit Us</span>
+                            <h2 class="section-title">Begin Your Wellness Journey</h2>
+                            
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <div>
+                                        <strong>Location</strong>
+                                        <p>2930 Preston Road Suite 300 inside #120, Frisco, TX 75034</p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="bi bi-telephone"></i>
+                                    <div>
+                                        <strong>Phone</strong>
+                                        <p><a href="tel:+1234567890">(123) 456-7890</a></p>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="bi bi-clock"></i>
+                                    <div>
+                                        <strong>Hours</strong>
+                                        <p>Mon-Sat: 10:00 AM - 9:00 PM<br>Sun: 11:00 AM - 7:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <a href="contact.html" class="btn btn-primary-custom">Get Directions</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="map-wrapper">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.8!2d-96.8237!3d33.1159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c3c9a0a0a0a0a%3A0x0!2s2930+Preston+Rd+Suite+300%2C+Frisco%2C+TX+75034!5e0!3m2!1sen!2sus!4v1234567890" width="100%" height="350" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-brand">
+                            <span class="brand-icon">❀</span>
+                            <span class="brand-text">Thanita Thai Massage</span>
+                        </div>
+                        <p class="footer-description">Experience the art of authentic Thai wellness at our premier day spa in Texas.</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                            <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+                            <a href="#" aria-label="Yelp"><i class="bi bi-yelp"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h4 class="footer-title">Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="footer-title">Services</h4>
+                        <ul class="footer-links">
+                            <li><a href="services.html#thai-massage">Thai Massage</a></li>
+                            <li><a href="services.html#deep-tissue">Deep Tissue</a></li>
+                            <li><a href="services.html#aromatherapy">Aromatherapy</a></li>
+                            <li><a href="services.html#hot-stone">Hot Stone</a></li>
+                            <li><a href="services.html#couples">Couples Massage</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="footer-title">Contact</h4>
+                        <ul class="footer-contact">
+                            <li><i class="bi bi-geo-alt"></i> 2930 Preston Road Suite 300 inside #120, Frisco, TX 75034</li>
+                            <li><i class="bi bi-telephone"></i> <a href="tel:+1234567890">(123) 456-7890</a></li>
+                            <li><i class="bi bi-envelope"></i> <a href="mailto:info@thanitathaimassage.com">info@thanitathaimassage.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Thanita Thai Massage. All Rights Reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav class="mobile-nav">
+        <a href="index.html" class="mobile-nav-item active">
+            <i class="bi bi-house"></i>
+            <span>Home</span>
+        </a>
+        <a href="services.html" class="mobile-nav-item">
+            <i class="bi bi-spa"></i>
+            <span>Services</span>
+        </a>
+        <a href="contact.html#book" class="mobile-nav-item mobile-nav-cta">
+            <i class="bi bi-calendar-check"></i>
+            <span>Book</span>
+        </a>
+        <a href="tel:+1234567890" class="mobile-nav-item">
+            <i class="bi bi-telephone"></i>
+            <span>Call</span>
+        </a>
+    </nav>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
